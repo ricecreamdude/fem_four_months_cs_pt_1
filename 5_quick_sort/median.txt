@@ -1,0 +1,18 @@
+Reddit Interview Question
+
+I give you two sorted arrays,
+How do find the median element of these two array values? (Find the middle number)
+
+[1,5,8,9]
+[2,3,7,10]
+
+Solution 1.
+Concatenate both arrays and find the middle value
+  - Uses too much processing power to solve
+
+Solution 2.
+Use a merge function (the stitch function from Merge Sort exercise) and find the middle value
+  - Better than solution 1 but still uses a little too much data
+
+Solution 3.
+Use the merge function and count 5 values into the sort function
